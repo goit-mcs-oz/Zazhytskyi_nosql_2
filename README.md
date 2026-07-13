@@ -23,3 +23,6 @@ Regression
 Proximity (Retrieval)
 Adhoc Search
 It builds on the work done in SciRepEval: A Multi-Format Benchmark for Scientific Document Representations and we evaluate the trained model on this benchmark as well.
+
+3. У Model Card для allenai/specter2_base не вказано явної рекомендації щодо метрики схожості.
+Метрика схожості важлива при створенні індексу. Під час створення векторного індексу необхідно заздалегідь вибрати метрику відстані, оскільки саме вона визначає, як система буде шукати найближчі вектори.

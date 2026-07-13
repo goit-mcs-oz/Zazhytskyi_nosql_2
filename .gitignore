@@ -216,3 +216,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+arxiv-metadata-oai-snapshot.json
+
+.DS_Store
