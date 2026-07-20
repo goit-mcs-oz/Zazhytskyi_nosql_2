@@ -4,8 +4,6 @@ import numpy as np
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 
-# 1.3. Отримання ембеддингів
-
 df = pd.read_parquet("data/arxiv_subset.parquet")
 
 articles = (df['title'] + " [SEP] " + df['abstract']).tolist()
