@@ -36,7 +36,7 @@ embeddings = np.load(INPUT_EMBEDDINGS)
 vectors_to_upsert = []
 for row in tqdm(df.itertuples(index=True), total=len(df)):
     vector_values = embeddings[row.Index].tolist() 
-    id = f'paper_{str(row.Index) }'
+    id = f'paper_{str(row.Index)}'
     vectors_to_upsert.append({
         "id": id,
         "values": vector_values,
