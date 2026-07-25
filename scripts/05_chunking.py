@@ -12,12 +12,13 @@ def fixed_size_breakdown(text, size, overlap=0):
     words = text.split()
     chunks = []
     chunk = []
-    for i, item in enumerate(words):
+    for item in words:
         if len(chunk) < size:
            chunk.append(item)
         else:
             chunks.append(' '.join(chunk))
-            chunk = words[max(0,i - overlap) : i+1]
+            chunk = chunk[-overlap:]
+            chunk.append(item)
 
     if chunk:
         chunks.append(' '.join(chunk))
