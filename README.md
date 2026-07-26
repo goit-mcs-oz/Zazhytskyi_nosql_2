@@ -4,7 +4,7 @@
 
 ###  1.1. Завантаження і підготовка датасету
 
-(screenshots/comparison.png)
+![Результат](screenshots/comparison.png)
 
 ### 1.2. Вибір інструментів
 
