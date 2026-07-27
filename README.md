@@ -653,6 +653,8 @@ electroweak and TeV-scale $N$, we propose a qualitatively new collider analysis
 premised on a dynamic jet veto and discri
 ------------------------------
 ```
+![Результат](screenshots/4.1.png)
+![Результат](screenshots/4.2.png)
 
 1. Розбивка тексту на чанки за стратегією Semantic chunking дає більш осмислені чанки, так як чанк містить цілі речення.
 2. У випадку Fixed-size chunking є випадки розрізаних речень. Зміст чанку може бути неповним і спотвореним.
