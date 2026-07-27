@@ -486,8 +486,9 @@ max      451.000000
 Name: abstract, dtype: float64
 
 Завантажування Fixed-size chunking в Pinecone
-100%|███████████████████████████████████████████████████████████████████| 30/30 [00:17<00:00,  1.72it/s]
+100%|███████████████████████████████████████████████████████████████████| 30/30 [00:13<00:00,  2.17it/s]
 Завантажування Semantic chunking в Pinecone
+100%|███████████████████████████████████████████████████████████████████| 30/30 [00:04<00:00,  6.27it/s]
 
 Семантичний пошук по Fixed-size chunking:teaching machines to recognize objects in pictures
 Результати:
@@ -607,6 +608,37 @@ we designate as AGN. We assembled high S/N ratio composite spectra of a
 sequence of these AGN defined by the ionization level of their narrow-line
 regions (NLR), extending down to very low-
 ------------------------------
+title: Accretion Processes On a Black Hole
+chunk:  In presence of shocks, the post-shock flow becomes rotation dominated
+similar to thick disks. In Section 6, we present results of important numerical
+simulations of accretion flows. Significant results from the studies of
+evolution of viscous transonic flows are reported. In Section 7, we discuss
+some observational evidences of the black hole accretion. We also present a
+detailed model of a generalized accretion disk and present its spectra and
+compare with observations.
+abstract: We describe astrophysical processes around a black hole keeping primarily the
+physics of accretion in mind. In Section 1, we briefly discuss the formation,
+evolution and detection of black holes. We also discuss the difference of flow
+properties around a black hole and a Newtonian star. In Section 2, we present
+past and present developments in the study of spherically accreting flows. We
+study the properties of Bondi flow with and without radiative transfer. In the
+presence of significant angula
+------------------------------
+title: RBA-GCN: Relational Bilevel Aggregation Graph Convolutional Network for
+  Emotion Recognition
+chunk: 31,2023.
+abstract: Emotion recognition in conversation (ERC) has received increasing attention
+from researchers due to its wide range of applications.As conversation has a
+natural graph structure,numerous approaches used to model ERC based on graph
+convolutional networks (GCNs) have yielded significant results.However,the
+aggregation approach of traditional GCNs suffers from the node information
+redundancy problem,leading to node discriminant information
+loss.Additionally,single-layer GCNs lack the capacity to cap
+------------------------------
+title: RUBIES: a complete census of the bright and red distant Universe with JWST/NIRSpec
+chunk:  We describe our data reduction procedure and data quality, and publicly release the reduced RUBIES data and vetted spectroscopic redshifts of the first half of the survey through the DJA.
+abstract: We present the Red Unknowns: Bright Infrared Extragalactic Survey (RUBIES), providing JWST/NIRSpec spectroscopy of red sources selected across ~150 arcmin$^2$ from public JWST/NIRCam imaging in the UDS and EGS fields. RUBIES novel observing strategy offers a well-quantified selection function: the survey is optimised to reach high (>70%) completeness for bright and red (F150W-F444W>2) sources that are very rare. To place these rare sources in context, we simultaneously observe a reference sample
+------------------------------
 title: Heavy Neutrinos with Dynamic Jet Vetoes: Multilepton Searches at
   $\sqrt{s} = 14,~27,$ and $100$ TeV
 chunk:  We anticipate these results can be
@@ -619,32 +651,6 @@ transfer, we revisit the long-standard search strategy for heavy $N$ decaying
 to multiple charged leptons $(\ell)$, $pp \to N\ell X \to 3\ell  u X$. For
 electroweak and TeV-scale $N$, we propose a qualitatively new collider analysis
 premised on a dynamic jet veto and discri
-------------------------------
-title: White dwarf planetary systems in the ultraviolet
-chunk:  Without the FUV, we will no longer have access to the C, N, P, S content of exoplanetary bodies and thus will no longer be able to probe how volatiles interact with refractories, which is crucial to understanding planet formation-and even the origin of life. The medium resolution and high sensitivity of COS on HST has been indispensable in determining the compositions of dozens of exo-planetesimals. However, the only two medium resolution FUV-capable spectrographs are currently onboard HST, with no plans for replacements until the 2040s.
-abstract: Almost every known planet host will evolve into a white dwarf, and the surviving planetary material will continue to orbit this stellar remnant. Asteroids perturbed onto star-grazing orbits will become disrupted, forming an accretion disk which causes "enrichment" of the otherwise pure hydrogen or helium atmosphere. Measurements of these photospheric abundances give detailed insights into the interior compositions of exo-planetesimals with an accuracy not possible for intact exoplanets around ma
-------------------------------
-title: The need for new techniques to identify the high-frequency MHD waves of
-  an oscillating coronal loop
-chunk:  However, how these methods
-can lead to artefacts requires investigation. We assess whether these two
-common spectral analysis techniques in coronal seismology can successfully
-identify high-frequency waves from an oscillating coronal loop. We examine
-extreme ultraviolet images of a coronal loop observed by the Atmospheric
-Imaging Assembly in the 171 \AA waveband on board the Solar Dynamics
-Observatory. We perform a spectral analysis of the loop waveform and compare
-our observation with a basic simulation.
-abstract: Magnetic arcades in the solar atmosphere, or coronal loops, are common
-structures known to host magnetohydrodynamic (MHD) waves and oscillations. Of
-particular interest are the observed properties of transverse loop
-oscillations, such as their frequency and mode of oscillation, which have
-received significant attention in recent years because of their seismological
-capability. Previous studies have relied on standard data analysis techniques,
-such as a fast Fourier transform (FFT) and wavelet tr
-------------------------------
-title: White dwarf planetary systems in the ultraviolet
-chunk:  An extension to the HST mission is critical for the field of white dwarf planetary systems, because the loss of FUV capability would leave us blind to volatiles. Boosting the orbit of HST would allow us to measure volatile abundances, determine the rocky planetary occurrence rate, investigate differentiation, and probe for photospheric abundance variability.
-abstract: Almost every known planet host will evolve into a white dwarf, and the surviving planetary material will continue to orbit this stellar remnant. Asteroids perturbed onto star-grazing orbits will become disrupted, forming an accretion disk which causes "enrichment" of the otherwise pure hydrogen or helium atmosphere. Measurements of these photospheric abundances give detailed insights into the interior compositions of exo-planetesimals with an accuracy not possible for intact exoplanets around ma
 ------------------------------
 ```
 

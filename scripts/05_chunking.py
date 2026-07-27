@@ -115,7 +115,7 @@ index_chunks_semantic = create_index(index_name_chunks_semantic, pc)
 print('\nЗавантажування Fixed-size chunking в Pinecone')
 load_to_pinecone(index_chunks_fixed, df_top_30_articles, model, fixed_size_breakdown, {'size':20, 'overlap':5})
 print('Завантажування Semantic chunking в Pinecone')
-#load_to_pinecone(index_chunks_semantic, df_top_30_articles, model, semantic_chunking, {'max_words':70})
+load_to_pinecone(index_chunks_semantic, df_top_30_articles, model, semantic_chunking, {'max_words':70})
 
 # Семантичний пошук
 
