@@ -473,6 +473,181 @@ generalization.
 
 ## Частина 4 — Chunking
 
+```
+Ститистика по словах
+count     30.000000
+mean     293.633333
+std       41.528124
+min      236.000000
+25%      273.000000
+50%      286.500000
+75%      304.250000
+max      451.000000
+Name: abstract, dtype: float64
+
+Завантажування Fixed-size chunking в Pinecone
+100%|███████████████████████████████████████████████████████████████████| 30/30 [00:17<00:00,  1.72it/s]
+Завантажування Semantic chunking в Pinecone
+
+Семантичний пошук по Fixed-size chunking:teaching machines to recognize objects in pictures
+Результати:
+
+title: Symmetries in Overparametrized Neural Networks: A Mean-Field View
+chunk: validity of our findings as $N$ gets larger in a teacher-student experimental setting, training a student NN to learn from
+abstract: We develop a Mean-Field (MF) view of the learning dynamics of overparametrized Artificial Neural Networks (NN) under data symmetric in law wrt the action of a general compact group $G$. We consider for this a class of generalized shallow NNs given by an ensemble of $N$ multi-layer units, jointly trained using stochastic gradient descent (SGD) and possibly symmetry-leveraging (SL) techniques, such as Data Augmentation (DA), Feature Averaging (FA) or Equivariant Architectures (EA). We introduce th
+------------------------------
+title: Equivalent Linear Mappings of Large Language Models
+chunk: of individual layers and their attention and multilayer perceptron modules build predictions, and use these as steering operators to insert
+abstract: Despite significant progress in transformer interpretability, an understanding of the computational mechanisms of large language models (LLMs) remains a fundamental challenge. Many approaches interpret a network's hidden representations but remain agnostic about how those representations are generated. We address this by mapping LLM inference for a given input sequence to an equivalent and interpretable linear system which reconstructs the predicted output embedding with relative error below $10
+------------------------------
+title: Equivalent Linear Mappings of Large Language Models
+chunk: Jacobian of the model reconstructs the output with one linear operator per input token, which is shown for Qwen 3,
+abstract: Despite significant progress in transformer interpretability, an understanding of the computational mechanisms of large language models (LLMs) remains a fundamental challenge. Many approaches interpret a network's hidden representations but remain agnostic about how those representations are generated. We address this by mapping LLM inference for a given input sequence to an equivalent and interpretable linear system which reconstructs the predicted output embedding with relative error below $10
+------------------------------
+title: Symmetries in Overparametrized Neural Networks: A Mean-Field View
+chunk: teacher-student experimental setting, training a student NN to learn from a WI, SI or arbitrary teacher model through various SL
+abstract: We develop a Mean-Field (MF) view of the learning dynamics of overparametrized Artificial Neural Networks (NN) under data symmetric in law wrt the action of a general compact group $G$. We consider for this a class of generalized shallow NNs given by an ensemble of $N$ multi-layer units, jointly trained using stochastic gradient descent (SGD) and possibly symmetry-leveraging (SL) techniques, such as Data Augmentation (DA), Feature Averaging (FA) or Equivariant Architectures (EA). We introduce th
+------------------------------
+title: Equivalent Linear Mappings of Large Language Models
+chunk: a linear equivalent, and we examine how the linear representations of individual layers and their attention and multilayer perceptron modules
+abstract: Despite significant progress in transformer interpretability, an understanding of the computational mechanisms of large language models (LLMs) remains a fundamental challenge. Many approaches interpret a network's hidden representations but remain agnostic about how those representations are generated. We address this by mapping LLM inference for a given input sequence to an equivalent and interpretable linear system which reconstructs the predicted output embedding with relative error below $10
+------------------------------
+
+Семантичний пошук по Fixed-size chunking:FUV-capable spectrographs
+Результати:
+
+title: RUBIES: a complete census of the bright and red distant Universe with JWST/NIRSpec
+chunk: sources selected across ~150 arcmin$^2$ from public JWST/NIRCam imaging in the UDS and EGS fields. RUBIES novel observing strategy offers
+abstract: We present the Red Unknowns: Bright Infrared Extragalactic Survey (RUBIES), providing JWST/NIRSpec spectroscopy of red sources selected across ~150 arcmin$^2$ from public JWST/NIRCam imaging in the UDS and EGS fields. RUBIES novel observing strategy offers a well-quantified selection function: the survey is optimised to reach high (>70%) completeness for bright and red (F150W-F444W>2) sources that are very rare. To place these rare sources in context, we simultaneously observe a reference sample
+------------------------------
+title: The Role of Cluster Environments in Quiescent Galaxy Stellar Halo Assembly
+chunk: deep HSC-SSP $grizy$ imaging. We study stellar halo assembly trends by linking median $\mu_g$ profile evolution to the underlying mass
+abstract: External interactions drive galaxy stellar mass growth and morphological evolution. As stellar haloes-assembled largely via hierarchical accretion-preserve signatures of these processes, their growth probes how environment regulates galaxy evolution. We investigate how cluster environments influence quiescent galaxy (QG) stellar halo assembly over 0.1 $\leq$ $z$ $\leq$ 1.0 in a sample of 2,168 cluster and 94,479 field QGs of $\log M_{\star} \geq 9.66$. Extended emission is traced via rest-frame 
+------------------------------
+title: White dwarf planetary systems in the ultraviolet
+chunk: the only two medium resolution FUV-capable spectrographs are currently onboard HST, with no plans for replacements until the 2040s. An
+abstract: Almost every known planet host will evolve into a white dwarf, and the surviving planetary material will continue to orbit this stellar remnant. Asteroids perturbed onto star-grazing orbits will become disrupted, forming an accretion disk which causes "enrichment" of the otherwise pure hydrogen or helium atmosphere. Measurements of these photospheric abundances give detailed insights into the interior compositions of exo-planetesimals with an accuracy not possible for intact exoplanets around ma
+------------------------------
+title: Interpreting the Ionization Sequence in AGN Emission-Line Spectra
+chunk: their central regions by radiation pressure. We consider that our AGN sequence instead represents a mixing curve of SF and
+abstract: We investigate the physical cause of the great range in the ionization level
+seen in the spectra of narrow lined active galactic nuclei (AGN). Mean field
+independent component analysis identifies examples of individual SDSS galaxies
+whose spectra are not dominated by emission due to star formation (SF), which
+we designate as AGN. We assembled high S/N ratio composite spectra of a
+sequence of these AGN defined by the ionization level of their narrow-line
+regions (NLR), extending down to very low-
+------------------------------
+title: Interpreting the Ionization Sequence in AGN Emission-Line Spectra
+chunk: moderate ionization AGN along our sequence, providing a physical interpretation for their systematic variation. Higher ionization AGN contain optimally emitting
+abstract: We investigate the physical cause of the great range in the ionization level
+seen in the spectra of narrow lined active galactic nuclei (AGN). Mean field
+independent component analysis identifies examples of individual SDSS galaxies
+whose spectra are not dominated by emission due to star formation (SF), which
+we designate as AGN. We assembled high S/N ratio composite spectra of a
+sequence of these AGN defined by the ionization level of their narrow-line
+regions (NLR), extending down to very low-
+------------------------------
+----------------------------------------------------
+
+Семантичний пошук по Semantic chunking:teaching machines to recognize objects in pictures
+Результати:
+
+title: Equivalent Linear Mappings of Large Language Models
+chunk:  This detached Jacobian of the model reconstructs the output with one linear operator per input token, which is shown for Qwen 3, Gemma 3 and Llama 3, up to Qwen 3 14B. These linear representations demonstrate that LLMs operate in extremely low-dimensional subspaces where the singular vectors can be decoded to interpretable semantic concepts. The computation for each intermediate output also has a linear equivalent, and we examine how the linear representations of individual layers and their attention and multilayer perceptron modules build predictions, and use these as steering operators to insert semantic concepts into unrelated text.
+abstract: Despite significant progress in transformer interpretability, an understanding of the computational mechanisms of large language models (LLMs) remains a fundamental challenge. Many approaches interpret a network's hidden representations but remain agnostic about how those representations are generated. We address this by mapping LLM inference for a given input sequence to an equivalent and interpretable linear system which reconstructs the predicted output embedding with relative error below $10
+------------------------------
+title: Equivalent Linear Mappings of Large Language Models
+chunk:  Despite their global nonlinearity, LLMs can be interpreted through equivalent linear representations that reveal low-dimensional semantic structures in the next-token prediction process.
+abstract: Despite significant progress in transformer interpretability, an understanding of the computational mechanisms of large language models (LLMs) remains a fundamental challenge. Many approaches interpret a network's hidden representations but remain agnostic about how those representations are generated. We address this by mapping LLM inference for a given input sequence to an equivalent and interpretable linear system which reconstructs the predicted output embedding with relative error below $10
+------------------------------
+title: Heavy Neutrinos with Dynamic Jet Vetoes: Multilepton Searches at
+  $\sqrt{s} = 14,~27,$ and $100$ TeV
+chunk:  We anticipate these results can be
+further improved with detector-specific tuning and application of machines
+learning techniques.
+abstract: Heavy neutrinos $(N)$ remain one of most promising explanations for the
+origin of neutrinos' tiny masses and large mixing angles. In light of broad
+advances in understanding and modeling of hadron collisions at large momentum
+transfer, we revisit the long-standard search strategy for heavy $N$ decaying
+to multiple charged leptons $(\ell)$, $pp \to N\ell X \to 3\ell  u X$. For
+electroweak and TeV-scale $N$, we propose a qualitatively new collider analysis
+premised on a dynamic jet veto and discri
+------------------------------
+title: MindVLA-U1: VLA Beats VA with Unified Streaming Architecture for Autonomous Driving
+chunk:  RAP's 18 FPS at 1B scale) while preserving natural language interfaces for human-vehicle interaction.
+abstract: Autonomous driving has progressed from modular pipelines toward end-to-end unification, and Vision-Language-Action (VLA) models are a natural extension of this journey beyond Vision-to-Action (VA). In practice, driving VLAs have often trailed VA on planning quality, suggesting that the difficulty is not simply model scale but the interface through which semantic reasoning, temporal context, and continuous control are combined. We argue that this gap reflects how VLA has been built -- as isolated
+------------------------------
+title: Detecting Political Biases of Named Entities and Hashtags on Twitter
+chunk:  We also discuss important
+limitations of our work and encourage caution when applying the it to
+real-world scenarios.
+abstract: Ideological divisions in the United States have become increasingly prominent
+in daily communication. Accordingly, there has been much research on political
+polarization, including many recent efforts that take a computational
+perspective. By detecting political biases in a corpus of text, one can attempt
+to describe and discern the polarity of that text. Intuitively, the named
+entities (i.e., the nouns and the phrases that act as nouns) and hashtags in
+text often carry information about politic
+------------------------------
+
+Семантичний пошук по Semantic chunking:FUV-capable spectrographs
+Результати:
+
+title: Interpreting the Ionization Sequence in AGN Emission-Line Spectra
+chunk:  We consider that our
+AGN sequence instead represents a mixing curve of SF and AGN spectra, but argue
+that while many galaxies do have this type of composite spectra, our AGN
+sequence appears to be a special set of objects with negligible SF excitation.
+abstract: We investigate the physical cause of the great range in the ionization level
+seen in the spectra of narrow lined active galactic nuclei (AGN). Mean field
+independent component analysis identifies examples of individual SDSS galaxies
+whose spectra are not dominated by emission due to star formation (SF), which
+we designate as AGN. We assembled high S/N ratio composite spectra of a
+sequence of these AGN defined by the ionization level of their narrow-line
+regions (NLR), extending down to very low-
+------------------------------
+title: Heavy Neutrinos with Dynamic Jet Vetoes: Multilepton Searches at
+  $\sqrt{s} = 14,~27,$ and $100$ TeV
+chunk:  We anticipate these results can be
+further improved with detector-specific tuning and application of machines
+learning techniques.
+abstract: Heavy neutrinos $(N)$ remain one of most promising explanations for the
+origin of neutrinos' tiny masses and large mixing angles. In light of broad
+advances in understanding and modeling of hadron collisions at large momentum
+transfer, we revisit the long-standard search strategy for heavy $N$ decaying
+to multiple charged leptons $(\ell)$, $pp \to N\ell X \to 3\ell  u X$. For
+electroweak and TeV-scale $N$, we propose a qualitatively new collider analysis
+premised on a dynamic jet veto and discri
+------------------------------
+title: White dwarf planetary systems in the ultraviolet
+chunk:  Without the FUV, we will no longer have access to the C, N, P, S content of exoplanetary bodies and thus will no longer be able to probe how volatiles interact with refractories, which is crucial to understanding planet formation-and even the origin of life. The medium resolution and high sensitivity of COS on HST has been indispensable in determining the compositions of dozens of exo-planetesimals. However, the only two medium resolution FUV-capable spectrographs are currently onboard HST, with no plans for replacements until the 2040s.
+abstract: Almost every known planet host will evolve into a white dwarf, and the surviving planetary material will continue to orbit this stellar remnant. Asteroids perturbed onto star-grazing orbits will become disrupted, forming an accretion disk which causes "enrichment" of the otherwise pure hydrogen or helium atmosphere. Measurements of these photospheric abundances give detailed insights into the interior compositions of exo-planetesimals with an accuracy not possible for intact exoplanets around ma
+------------------------------
+title: The need for new techniques to identify the high-frequency MHD waves of
+  an oscillating coronal loop
+chunk:  However, how these methods
+can lead to artefacts requires investigation. We assess whether these two
+common spectral analysis techniques in coronal seismology can successfully
+identify high-frequency waves from an oscillating coronal loop. We examine
+extreme ultraviolet images of a coronal loop observed by the Atmospheric
+Imaging Assembly in the 171 \AA waveband on board the Solar Dynamics
+Observatory. We perform a spectral analysis of the loop waveform and compare
+our observation with a basic simulation.
+abstract: Magnetic arcades in the solar atmosphere, or coronal loops, are common
+structures known to host magnetohydrodynamic (MHD) waves and oscillations. Of
+particular interest are the observed properties of transverse loop
+oscillations, such as their frequency and mode of oscillation, which have
+received significant attention in recent years because of their seismological
+capability. Previous studies have relied on standard data analysis techniques,
+such as a fast Fourier transform (FFT) and wavelet tr
+------------------------------
+title: White dwarf planetary systems in the ultraviolet
+chunk:  An extension to the HST mission is critical for the field of white dwarf planetary systems, because the loss of FUV capability would leave us blind to volatiles. Boosting the orbit of HST would allow us to measure volatile abundances, determine the rocky planetary occurrence rate, investigate differentiation, and probe for photospheric abundance variability.
+abstract: Almost every known planet host will evolve into a white dwarf, and the surviving planetary material will continue to orbit this stellar remnant. Asteroids perturbed onto star-grazing orbits will become disrupted, forming an accretion disk which causes "enrichment" of the otherwise pure hydrogen or helium atmosphere. Measurements of these photospheric abundances give detailed insights into the interior compositions of exo-planetesimals with an accuracy not possible for intact exoplanets around ma
+------------------------------
+```
+
 1. Розбивка тексту на чанки за стратегією Semantic chunking дає більш осмислені чанки, так як чанк містить цілі речення.
 2. У випадку Fixed-size chunking є випадки розрізаних речень. Зміст чанку може бути неповним і спотвореним.
 3. При зменшені overlap кількість чанків і покриття тексту зменшується, при збільшені overlap кількість чанків і покриття текту збільшується (тобто частини одного і того самого тексту і змісту знаходяться в різних чанках). 
