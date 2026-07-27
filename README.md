@@ -47,6 +47,7 @@ It builds on the work done in SciRepEval: A Multi-Format Benchmark for Scientifi
 
 ## Частина 3 — Пошукові запити
 
+```
 Чистий семантичний пошук, результати:
 
 title: Artificial Intelligence Generated Coins for Size Comparison
@@ -207,12 +208,6 @@ Gradient Descent. In this work we show that one can obtain strong code length
 bounds for such a weight estimation scheme. These bounds hold for arbitrary
 input sequences. For this purpose we
 ------------------------------
-/Users/oleksandrzazhytskyi/Git-projects/Zazhytskyi_nosql_2/.venv/lib/python3.9/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: divide by zero encountered in matmul
-  ret = a @ b
-/Users/oleksandrzazhytskyi/Git-projects/Zazhytskyi_nosql_2/.venv/lib/python3.9/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: overflow encountered in matmul
-  ret = a @ b
-/Users/oleksandrzazhytskyi/Git-projects/Zazhytskyi_nosql_2/.venv/lib/python3.9/site-packages/sklearn/utils/extmath.py:203: RuntimeWarning: invalid value encountered in matmul
-  ret = a @ b
 
 Top-5 статей для метрики cosine similarity:
 score: 0.8357
@@ -468,6 +463,7 @@ representation learning leads to the emergence of more complex cooperation
 strategies between agents as well as enhanced sample efficiency and
 generalization.
 ------------------------------
+```
 
 Хоча у випадку обох прикладів А та В пошук був проведений за запитом "reinforcement learning", результати пошуку відрізняються, тому що пошук проводився з фільтрацією результатів. В першому випадку в рекзультат попали статті за останні 5 років і категорії cs.LG, а в другому випадку в рекзультат попали статті до 2015 року будь-якої категорії.
 
